@@ -1,22 +1,27 @@
+/* This "*" selector will apply its settings to the whole HTML document */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* This "body" selector will apply its settings to the main part of the HTML document (the "body") */
 body {
     background-color: #d9dcd6;
 }
 
+/* This "a" selector will apply its settings to all the "anchor" elements (links) in the HTML document */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* This "p" selector will apply its settings to all the "paragraph" elements (longer text) in the HTML document */
 p {
     font-size: 16px;
 }
 
+/* This semantic element selector will apply its settings to all the header semantic elements in the HTML document */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,15 +29,20 @@ header {
     color: #ffffff;
 }
 
+/* This semantic element selector will apply its settings to all the h1 header text in a header in the HTML document */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* One off element to highlight the "seo" in "Horiseon" */
 header span {
     color: #d9dcd6;
 }
 
+/* A "nav" element increases accessibility compared to a "div" element.
+"Browsers, such as screen readers for disabled users, can use this element to determine whether to omit the initial
+rendering of this content." -- https://www.w3schools.com/ */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,15 +51,18 @@ header nav {
     font-size: 20px;
 }
 
+/* Setting the style of the list of links in the nav section */
 header nav ul {
     list-style-type: none;
 }
 
+/* Setting the style of the list of links in the nav section */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Settings for the hero ID */
 #hero {
     height: 800px;
     width: 100%;
@@ -59,12 +72,14 @@ header nav ul li {
     background-position: center;
 }
 
+/* Settings for the sections */
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Settings for the articles in the sections */
 section article {
     margin-bottom: 20px;
     padding: 50px;
@@ -74,25 +89,30 @@ section article {
     color: #ffffff;
 }
 
+/* Settings for the images in the articles in the sections */
 section article img {
     max-height: 200px;
 }
 
+/* Settings for the headings in the articles in the sections */
 section article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Settings for the float-left class */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Settings for the float-right class */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Settings for the aside */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -104,22 +124,26 @@ aside {
     background-color: #2589bd;
 }
 
+/* Settings for the articles in the aside */
 aside article {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Settings for the headings in the articles in the aside */
 aside article h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Settings for the images in the articles in the aside */
 aside article img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Settings for the footer */
 footer {
     padding: 30px;
     clear: both;
@@ -127,6 +151,7 @@ footer {
     text-align: center;
 }
 
+/* Settings for the header in the footer */
 footer h2 {
     font-size: 20px;
 }
